@@ -97,6 +97,6 @@ Asegúrate de reemplazar los caminos de los directorios con los caminos reales d
 
 
 > Marcos Jesús Santana Ramos 
-> Trabajo de fin de Grado para la Universidad de La Laguna
-> Grado en Ingeniería Informática
-> Curso 2023-2024
+> Trabajo de fin de Grado para la Universidad de La Laguna 
+> Grado en Ingeniería Informática 
+> Curso 2023-2024 
