@@ -96,7 +96,10 @@ Los argumentos para el comando python son los siguientes:
 Asegúrate de reemplazar los caminos de los directorios con los caminos reales donde tienes almacenados los archivos correspondientes en tu sistema si son diferentes a los proporcionados.
 
 
-> Marcos Jesús Santana Ramos 
-> Trabajo de fin de Grado para la Universidad de La Laguna 
-> Grado en Ingeniería Informática 
+> Marcos Jesús Santana Ramos
+>
+> Trabajo de fin de Grado para la Universidad de La Laguna
+> 
+> Grado en Ingeniería Informática
+> 
 > Curso 2023-2024 
