@@ -40,9 +40,9 @@ Debido a restricciones de tamaño, los archivos del proyecto se almacenan extern
 Para ejecutar los notebooks de segmentación y clasificación, es necesario preparar el entorno utilizando Miniconda. Sigue los pasos a continuación para configurar el entorno:
 
 1. Crear un nuevo entorno con Anaconda y Python 3.8:
-```sh
-conda create -n Unet anaconda python=3.8
-```
+  ```sh
+  conda create -n Unet anaconda python=3.8
+  ```
 2. Activar el nuevo entorno:
     ```sh
     conda activate Unet
@@ -78,19 +78,19 @@ Para iniciar Jupyter Notebook y acceder a los notebooks de segmentación U-Net y
 
 ```bash
 jupyter notebook
-
+```
 Esto abrirá la interfaz de Jupyter en tu navegador por defecto, donde podrás abrir y ejecutar los notebooks incluidos en el directorio del proyecto.
 
 ### Ejecutar Script de Extracción de Características
 Para ejecutar el script de extracción de características, que procesa las imágenes utilizando los modelos entrenados y extrae las características relevantes, usa el siguiente comando en la terminal:
 ```bash
 py retinal_features_extraction.py Resultados\x_test_images Resultados\mascaras_disco_UNET Resultados\mascaras_copa_UNET Resultados_UNET
-
+```
 Los argumentos para el comando python son los siguientes:
 
-Resultados\x_test_images: Directorio que contiene las retinografías a examinar.
-Resultados\mascaras_disco_UNET: Directorio que contiene las máscaras de discos generadas por el modelo U-Net.
-Resultados\mascaras_copa_UNET: Directorio que contiene las máscaras de copas generadas por el modelo U-Net.
-Resultados_UNET: Directorio donde deseas almacenar los resultados de la extracción de características.
+- Resultados\x_test_images: Directorio que contiene las retinografías a examinar.
+- Resultados\mascaras_disco_UNET: Directorio que contiene las máscaras de discos generadas por el modelo U-Net.
+- Resultados\mascaras_copa_UNET: Directorio que contiene las máscaras de copas generadas por el modelo U-Net.
+- Resultados_UNET: Directorio donde deseas almacenar los resultados de la extracción de características.
 
 Asegúrate de reemplazar los caminos de los directorios con los caminos reales donde tienes almacenados los archivos correspondientes en tu sistema si son diferentes a los proporcionados.
