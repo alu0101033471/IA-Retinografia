@@ -40,9 +40,9 @@ Debido a restricciones de tamaño, los archivos del proyecto se almacenan extern
 Para ejecutar los notebooks de segmentación y clasificación, es necesario preparar el entorno utilizando Miniconda. Sigue los pasos a continuación para configurar el entorno:
 
 1. Crear un nuevo entorno con Anaconda y Python 3.8:
-  ```sh
-  conda create -n Unet anaconda python=3.8
-  ```
+    ```sh
+    conda create -n Unet anaconda python=3.8
+    ```
 2. Activar el nuevo entorno:
     ```sh
     conda activate Unet
@@ -94,3 +94,9 @@ Los argumentos para el comando python son los siguientes:
 - Resultados_UNET: Directorio donde deseas almacenar los resultados de la extracción de características.
 
 Asegúrate de reemplazar los caminos de los directorios con los caminos reales donde tienes almacenados los archivos correspondientes en tu sistema si son diferentes a los proporcionados.
+
+
+> Marcos Jesús Santana Ramos 
+> Trabajo de fin de Grado para la Universidad de La Laguna
+> Grado en Ingeniería Informática
+> Curso 2023-2024
