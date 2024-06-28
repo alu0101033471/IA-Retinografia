@@ -42,7 +42,7 @@ Para ejecutar los notebooks de segmentación y clasificación, es necesario prep
 1. Crear un nuevo entorno con Anaconda y Python 3.8:
 ```sh
 conda create -n Unet anaconda python=3.8
-
+```
 2. Activar el nuevo entorno:
     ```sh
     conda activate Unet
