@@ -11,6 +11,7 @@ Debido a restricciones de tamaño, los archivos del proyecto se almacenan extern
 - **retinal_features_extraction.py**: Script de extracción de características. Este script automatiza la extracción de 14 características morfológicas a partir de las imágenes segmentadas.
 
 - **decision_tree_classification.ipynb**: Script del clasificador de árbol de decisión. Este notebook contiene el código para clasificar las imágenes de retinografías en categorías relacionadas con la presencia o ausencia de glaucoma, utilizando un modelo de árbol de decisión.
+- **RMSE_R2_metrics.py**: Script para calcular las métricas RMSE y R2 con los archivos csv generados por el script retinal_features_extraction.py de datos de máscaras originales y de máscaras segmentadas.
 
 ### Carpetas
 
@@ -95,7 +96,15 @@ Los argumentos para el comando python son los siguientes:
 
 Asegúrate de reemplazar los caminos de los directorios con los caminos reales donde tienes almacenados los archivos correspondientes en tu sistema si son diferentes a los proporcionados.
 
+### Ejecutar Script del script para calcular las métricas RMSE y R2
+Para ejecutar el script de calcular las métricas RMSE y R2 usa el siguiente comando en la terminal:
+```bash
+py RMSE_R2_metrics.py Datos_arbol_decision/test_RIMONE_originales.csv Datos_arbol_decision/test_RIMONE_generadas.csv
+```
+Los argumentos para el comando python son los siguientes:
 
+- Datos_arbol_decision/test_RIMONE_originales.csv: Archivo que contiene los datos de las máscaras originales.
+- Datos_arbol_decision/test_RIMONE_generadas.csv: Archivo que contiene los datos de las máscaras generadas por el modelo U-Net.
 > Marcos Jesús Santana Ramos
 >
 > Trabajo de fin de Grado para la Universidad de La Laguna
