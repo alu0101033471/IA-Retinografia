@@ -1,7 +1,7 @@
 # IA-Retinografia
 ## Aplicación de técnicas de IA para la extracción automática de estructuras de interés en retinografías
 Debido a restricciones de tamaño, los archivos del proyecto se almacenan externamente. Puede descargarlos desde el siguientes enlace:
-- [IA-Retinografia](https://drive.google.com/file/d/1eQtpvyua3inoCCxBb-CYdax14fmfv5NS/view?usp=drive_link)
+- [IA-Retinografia](https://drive.google.com/file/d/1DeQY1I6tWpbyW9Z_JwdNbIKckxpu7IXe/view?usp=sharing)
 
 ## Contenido del Proyecto
 ### Scripts
