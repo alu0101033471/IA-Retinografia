@@ -96,7 +96,7 @@ Los argumentos para el comando python son los siguientes:
 
 Asegúrate de reemplazar los caminos de los directorios con los caminos reales donde tienes almacenados los archivos correspondientes en tu sistema si son diferentes a los proporcionados.
 
-### Ejecutar Script del script para calcular las métricas RMSE y R2
+### Ejecutar Script para calcular las métricas RMSE y R2
 Para ejecutar el script de calcular las métricas RMSE y R2 usa el siguiente comando en la terminal:
 ```bash
 py RMSE_R2_metrics.py Datos_arbol_decision/test_RIMONE_originales.csv Datos_arbol_decision/test_RIMONE_generadas.csv
